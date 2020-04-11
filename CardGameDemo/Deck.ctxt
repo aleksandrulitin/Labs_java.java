@@ -1,0 +1,18 @@
+#BlueJ class context
+comment0.target=Deck
+comment1.params=
+comment1.target=Deck()
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ Deck\r\n
+comment2.params=
+comment2.target=Card\ takeCard()
+comment2.text=\r\n\ takeCard\:\ take\ a\ card\ from\ the\ deck.\ It\ will\ be\ removed.\r\n\r\n\ @return\ the\ Card\ that\ was\ removed\ from\ the\ deck.\r\n
+comment3.params=
+comment3.target=void\ shuffle()
+comment3.text=\r\n\ shuffle\:\ shuffle\ the\ deck\ by\ randomly\ swapping\ pairs\ of\ cards\ a\ certain\ number\ of\ times.\r\n
+comment4.params=i\ j
+comment4.target=void\ swap(int,\ int)
+comment4.text=\r\n\ swap\:\ helper\ method\ of\ shuffle.\r\n
+comment5.params=
+comment5.target=java.lang.String\ toString()
+comment5.text=\r\n\ toString\:\ \r\n\ \r\n\ @return\ a\ String\ representation\ of\ a\ Deck\ that\ includes\ all\ attributes,\ i.e.\ deck\ and\ numCards.\r\n
+numComments=6

@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=Blackjack
+comment1.params=theNumPlayers\ theMaxNumCardsPerHand
+comment1.target=Blackjack(int,\ int)
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ CardGame\r\n
+comment2.params=
+comment2.target=void\ playGame()
+comment2.text=\r\n\ playGame\:\ plays\ a\ modified\ game\ of\ Blackjack.\r\n\ Objective\:\ get\ as\ close\ to\ 21\ without\ going\ over.\ \ If\ dealer\ gets\ 21,\ dealer\ wins.\ \ If\ dealer\ goes\ over\ 21,\ dealer\ loses.\ \ Otherwise,\ same\ rules\ apply\ to\ each\ player,\r\n\ who\ is\ playing\ against\ the\ dealer.\ \ If\ no\ one\ got\ 21\ or\ over,\ then\ the\ hand\ (player\ vs\ dealer)\ with\ the\ highest\ sum\ wins.\r\n\ Each\ player\ starts\ with\ 2\ cards;\ picture\ cards\ (Jack,\ Queen,\ King)\ count\ as\ 10;\ Ace\ counts\ as\ 1;\ other\ cards'\ values\ are\ same\ as\ the\ number\ on\ the\ card\ (2\ through\ 10).\r\n\ Player\ 0\ is\ the\ dealer;\ all\ other\ players\ have\ the\ option\ to\ "hit"\ (get\ a\ new\ card),\ except\ the\ dealer;\ they\ stop\ drawing\ cards\ when\ they\ reach\ a\ given\ maximum\ \r\n\ (attribute\ of\ super\ class)\ or\ they\ say\ "stop".\r\n
+comment3.params=playerNum
+comment3.target=int\ getSumForPlayer(int)
+comment3.text=\r\n\ getSumForPlayer\:\r\n\ \r\n\ @param\ int\ playerNum,\ assumed\ to\ be\ valid\:\ 1\ <\=\ playerNum\ <\=\ this.numPlayers\r\n\ @return\ an\ int,\ the\ sum\ of\ playerNum's\ cards,\ assuming\ ACE\ \=\ 1,\ JACK\ \=\ 10,\ QUEEN\ \=\ 10.\ KING\ \=\ 10,\ cards\ 2\ through\ 10\ \=\ same\ as\ number\ on\ the\ card..\r\n
+comment4.params=playerNum\ dealerTotal\ playerTotal
+comment4.target=java.lang.String\ determineResultForPlayer(int,\ int,\ int)
+comment4.text=\r\n\ determineResultForPlayer\:\r\n\ \r\n\ @param\ int\ playerNum\r\n\ @param\ int\ dealerTotal\r\n\ @param\ int\ playerTotal\r\n\ @return\ String\ result\ of\ game\ based\ on\ whether\ the\ player\ got\ 21,\ more\ than\ 21,\ or\ more\ or\ less\ than\ dealer\ (win/loss/tie\ for\ the\ given\ player)\r\n\ Precondition\:\ It\ has\ already\ been\ determined\ that\ the\ dealer\ did\ not\ get\ 21\ or\ over.\r\n
+numComments=5

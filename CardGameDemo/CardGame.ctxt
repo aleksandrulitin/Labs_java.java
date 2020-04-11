@@ -1,0 +1,28 @@
+#BlueJ class context
+comment0.target=CardGame
+comment0.text=\r\n\ CardGame\ has\ a\ deck\ of\ cards\ and\ a\ certain\ number\ of\ players,\ each\ of\ whom\ has\ a\ hand\ of\ cards.\r\n\ The\ playGame\ method\ is\ abstract\ because\ the\ definition\r\n\ depends\ on\ which\ card\ game\ it\ is,\ so\ definition\ is\ deferred\ to\ subclasses.\r\n\r\n\ @author\ Dr.\ Chays\r\n\ @version\ March\ 28,\ 2020\r\n
+comment1.params=theNumPlayers\ theMaxNumCardsPerHand
+comment1.target=CardGame(int,\ int)
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ CardGame\r\n
+comment2.params=
+comment2.target=void\ playGame()
+comment2.text=\r\n\ playGame\:\ abstract\ method,\ whose\ definition/implementation\ is\ deferred\ to\ subclass.\r\n
+comment3.params=
+comment3.target=Deck\ getDeck()
+comment3.text=\r\n\ getDeck\:\r\n\ @return\ the\ deck.\r\n
+comment4.params=playerNum
+comment4.target=Card\ dealCard(int)
+comment4.text=\r\n\ dealCard\:\ deals\ a\ card\ from\ the\ deck\ to\ player\ \#\ playerNum\r\n\ @param\ int\ playerNum,\ a\ number\ between\ 1\ and\ this.numPlayers\r\n\ @return\ the\ dealt\ card\r\n
+comment5.params=numCardsToDeal
+comment5.target=void\ dealStartingHands(int)
+comment5.text=\r\n\ dealStartingHands\:\ deal\ the\ starting\ hands.\r\n\ \r\n\ @param\ int\ numCardsToDeal,\ how\ many\ cards\ to\ give\ to\ each\ player.\r\n
+comment6.params=playerNum
+comment6.target=int\ getSumForPlayer(int)
+comment6.text=\r\n\ getSumForPlayer\:\r\n\ \r\n\ @param\ int\ playerNum,\ assumed\ to\ be\ valid\:\ 1\ <\=\ playerNum\ <\=\ this.numPlayers\r\n\ @return\ an\ int,\ the\ sum\ of\ playerNum's\ cards,\ assuming\ ACE\ \=\ 1,\ JACK\ \=\ 11,\ QUEEN\ \=\ 12.\ KING\ \=\ 13,\ cards\ 2\ through\ 10\ \=\ same\ as\ number\ on\ the\ card.\r\n
+comment7.params=playerNum
+comment7.target=boolean\ hasMaxNumCards(int)
+comment7.text=\r\n\ hasMaxNumCards\:\r\n\ \r\n\ @param\ int\ playerNum\r\n\ @return\ boolean,\ true\ if\ specified\ player\ has\ the\ maximum\ number\ of\ cards,\ false\ otherwise.\r\n
+comment8.params=
+comment8.target=java.lang.String\ toString()
+comment8.text=\r\n\ toString\:\ \r\n\ \r\n\ @return\ a\ String\ representation\ of\ a\ Deck\ that\ includes\ all\ attributes,\ i.e.\ deck\ and\ numCards.\r\n
+numComments=9

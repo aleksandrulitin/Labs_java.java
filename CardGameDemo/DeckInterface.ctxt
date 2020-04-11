@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=DeckInterface
+comment0.text=\r\n\ An\ interface\ specifies\ an\ Abstract\ Data\ Type\ (ADT).\r\n\ An\ ADT\ is\ a\ collection\ of\ data\ and\ operations\ on\ the\ data,\r\n\ e.g.\ a\ deck\ of\ cards\ and\ operations\ such\ as\ shuffle,\ choose\ card...\r\n\ e.g.\ a\ collection\ of\ accounts\ the\ operations\ such\ as\ deposit,\ withdraw...\r\n\ All\ methods\ in\ an\ interface\ are\ abstract.\r\n\r\n\ @author\ Dr.\ Chays\r\n\ @version\ March\ 18,\ 2020\r\n
+comment1.params=
+comment1.target=Card\ takeCard()
+comment1.text=\r\n\ takeCard\:\ take\ a\ card\ from\ the\ deck.\ It\ will\ be\ removed.\r\n\r\n\ @return\ the\ Card\ that\ was\ removed\ from\ the\ deck.\r\n
+comment2.params=
+comment2.target=void\ shuffle()
+comment2.text=\r\n\ shuffle\:\ shuffle\ the\ deck\ by\ randomly\ swapping\ pairs\ of\ cards\ a\ certain\ number\ of\ times.\r\n
+comment3.params=
+comment3.target=java.lang.String\ toString()
+comment3.text=\r\n\ toString\:\ \r\n\ \r\n\ @return\ a\ String\ representation\ of\ a\ Deck\ that\ includes\ all\ attributes,\ i.e.\ deck\ and\ numCards.\r\n
+numComments=4

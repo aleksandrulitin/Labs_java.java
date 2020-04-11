@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=x\ y\ r
+comment0.target=Circle(int,\ int,\ double)
+comment0.text=\r\n\ Constructor\:\ initialize\ radius.\r\n
+comment1.params=
+comment1.target=double\ area()
+comment1.text=\r\n\ area\:\ compute\ area\ of\ a\ circle.\r\n\ @return\ a\ double,\ the\ area\ of\ a\ circle.\r\n
+numComments=2

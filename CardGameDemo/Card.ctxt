@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=Card
+comment0.text=\r\n\ A\ Card\ has\ a\ rank\ and\ a\ suit.\r\n\ There\ are\ two\ class\ invariants\:\ \r\n\ 1)\ rank\ must\ be\ between\ 1\ and\ MAX_RANK\ (inclusive).\r\n\ 2)\ suit\ must\ be\ CLUBS,\ HEARTS,\ SPADES\ or\ DIAMONDS.\ \r\n\r\n\ @author\ Dr.\ Chays\r\n\ @version\ March\ 28,\ 2020\r\n
+comment1.params=
+comment1.target=Card()
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ Card\r\n
+comment2.params=theRank\ theSuit
+comment2.target=Card(int,\ Card.SuitType)
+comment2.text=\r\n\ Constructor\ for\ objects\ of\ class\ Card\r\n
+comment3.params=
+comment3.target=Card.SuitType\ getSuit()
+comment3.text=\r\n\ getSuit\:\r\n\r\n\ @return\ the\ suit\r\n
+comment4.params=theSuit
+comment4.target=void\ setSuit(Card.SuitType)
+comment4.text=\r\n\ setSuit\:\r\n\r\n\ @param\ the\ suit\r\n
+comment5.params=
+comment5.target=int\ getRank()
+comment5.text=\r\n\ getRank\:\r\n\r\n\ @return\ the\ rank\r\n
+comment6.params=theRank
+comment6.target=void\ setRank(int)
+comment6.text=\r\n\ setRank\:\ set\ the\ rank\ attribute\ to\ the\ value\ of\ the\ parameter\ if\r\n\ the\ parameter\ is\ between\ 1\ and\ MAX_RANK\ (inclusive)\ to\ satisfy\ the\ first\ class\ invariant.\r\n\r\n\ @param\ the\ rank\r\n
+comment7.params=
+comment7.target=java.lang.String\ toString()
+comment7.text=\r\n\ toString\:\ \r\n\ \r\n\ @return\ a\ String\ representation\ of\ a\ Card\ that\ includes\ all\ attributes,\ i.e.\ rank\ and\ suit.\r\n
+numComments=8

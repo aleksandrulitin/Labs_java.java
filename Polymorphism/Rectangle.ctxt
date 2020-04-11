@@ -1,0 +1,5 @@
+#BlueJ class context
+comment0.params=x\ y\ l\ w
+comment0.target=Rectangle(int,\ int,\ double,\ double)
+comment0.text=\r\n\ Constructor\:\ initialize\ length\ and\ width\r\n
+numComments=1

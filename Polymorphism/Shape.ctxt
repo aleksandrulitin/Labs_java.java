@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=xVal\ yVal
+comment0.target=void\ setCoords(int,\ int)
+comment0.text=\r\n\ setCoords\:\ sets\ the\ x\ and\ y\ coordinates\ \r\n\ @param\ an\ int,\ the\ x\ coordinate\r\n\ @param\ an\ int,\ the\ y\ coordinate\r\n
+comment1.params=
+comment1.target=java.lang.String\ toString()
+comment1.text=\r\n\ toString\:\r\n\ @return\ a\ String\ holding\ the\ x\ and\ y\ coordinates\ formatted\ as\ (x,\ y)\r\n
+numComments=2

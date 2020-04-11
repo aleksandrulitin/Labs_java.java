@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=Player
+comment0.text=\r\n\ Player\ has\ cards\ in\ hand,\ a\ number\ of\ cards\ (currently)\ and\ a\ maximum\ number\ of\ cards.\r\n\r\n\ @author\ Dr.\ Chays\r\n\ @version\ March\ 28,\ 2020\r\n
+comment1.params=maxCards
+comment1.target=Player(int)
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ Player\r\n
+comment2.params=theCard
+comment2.target=void\ putCardInHand(Card)
+comment2.text=\r\n\ putCardInHand\:\r\n\ \r\n\ @param\ Card\ theCard\ to\ put\ in\ hand,\ as\ long\ as\ the\ maximum\ number\ of\ cards\ in\ hand\ have\ not\ been\ reached.\r\n
+comment3.params=pictureCardsWorthTen
+comment3.target=int\ computeSum(boolean)
+comment3.text=\r\n\ computeSum\:\r\n\ \r\n\ @param\ boolean,\ true\ if\ picture\ cards\ (JACK,\ QUEEN,\ or\ KING)\ have\ a\ value\ of\ 10,\ false\ otherwise.\r\n\ @return\ an\ int,\ the\ sum\ of\ the\ rank\ values\ of\ the\ cards\ in\ hand,\ assuming\ ACE\ has\ a\ value\ of\ 1.\r\n
+comment4.params=
+comment4.target=int\ getNumCardsInHand()
+comment4.text=\r\n\ getNumCardsInHand\:\r\n\ @return\ int\ numCardsInHand\r\n
+comment5.params=
+comment5.target=java.lang.String\ toString()
+comment5.text=\r\n\ toString\:\r\n\ \r\n\ @return\ a\ String\ representation\ of\ a\ Card\ that\ includes\ all\ attributes,\ i.e.\ rank\ and\ suit.\r\n
+numComments=6
