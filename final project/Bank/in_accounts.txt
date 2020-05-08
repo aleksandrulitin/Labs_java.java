@@ -1,0 +1,5 @@
+24 "James Smith" 10 50 30
+15 "Iron man" 5000 12 20
+
+17 "Bill Johnson" 12 15 40
+56 "Angelina Brown" 15000 18 1100
